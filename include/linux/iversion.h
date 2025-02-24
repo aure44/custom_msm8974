@@ -1,6 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef _LINUX_IVERSION_H
 #define _LINUX_IVERSION_H
+#define CUSTOM_KERNEL_USED 1
 
 #include <linux/fs.h>
 
