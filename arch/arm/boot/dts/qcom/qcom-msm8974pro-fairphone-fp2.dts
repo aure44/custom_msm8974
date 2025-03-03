@@ -200,7 +200,7 @@
 };
 
 &pm8941_lpg {
-	status = "disabled";
+	status = "okay";
 
 	qcom,power-source = <1>;
 
@@ -321,6 +321,7 @@
 		};
 
 		pm8941_l1: l1 {
+			status = "disabled";
 			regulator-min-microvolt = <1225000>;
 			regulator-max-microvolt = <1225000>;
 			regulator-always-on;
@@ -362,7 +363,6 @@
 		pm8941_l8: l8 {
 			regulator-min-microvolt = <1800000>;
 			regulator-max-microvolt = <1800000>;
-			status = "disabled";
 		};
 
 		pm8941_l9: l9 {
