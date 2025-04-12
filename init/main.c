@@ -903,6 +903,9 @@ asmlinkage __visible __init __no_sanitize_address __noreturn __no_stack_protecto
 void start_kernel(void)
 {
 	char *command_line;
+
+	printk(KERN_INFO ">>> My custom kernel modification is running!\n");
+
 	char *after_dashes;
 
 	set_task_stack_end_magic(&init_task);
