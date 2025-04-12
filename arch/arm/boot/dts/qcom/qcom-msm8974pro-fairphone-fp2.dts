@@ -361,7 +361,6 @@
 		};
 
 		pm8941_l8: l8 {
-			status = "disabled";
 			regulator-min-microvolt = <1800000>;
 			regulator-max-microvolt = <1900000>;
 		};
